@@ -6,7 +6,7 @@ ag = a[1]
 ba = int(b[0])
 bg = b[1]
 
-if (aa and ba) < 19 or (ag and bg) == "M":
-    print(0)
-else:
+if (aa >= 19 and ag == "M") or (ba >= 19 and bg == "M"):
     print(1)
+else:
+    print(0)
