@@ -1,7 +1,7 @@
 i = input().split()
-a = int(i[0])
-b = int(i[1])
+b = int(i[0])
+a = int(i[1])
 
 while a <= b:
-    print(a, end = ' ')
-    a += 2
+    print(b, end = ' ')
+    b -= 2
