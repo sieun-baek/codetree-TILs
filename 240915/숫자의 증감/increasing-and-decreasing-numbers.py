@@ -7,6 +7,6 @@ if c == 'A':
         print(i, end = '')
         i += 1
 else:
-    for i in range(n-1, 1):
+    for i in range(n-1, 1, -1):
         print(n, end = '')
         n -= 1
