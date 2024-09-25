@@ -6,4 +6,4 @@ for i in range(n):
     sum1 += i
 avg = sum1 / n
 
-print(sum1, avg)
+print(sum1, round(avg, 1))
